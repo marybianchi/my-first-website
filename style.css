@@ -63,3 +63,16 @@ section {
   padding: 20px 0;
   margin-bottom: 20px;
 }
+
+.book {
+  background-color: white;
+  padding: 20px;
+  margin: 15px auto;
+  max-width: 500px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.book h3 {
+  color: #4338ca;
+}
