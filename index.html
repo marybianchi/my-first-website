@@ -1,37 +1,44 @@
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My First Website</title>
+  <title>Mary's Website</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <h1>Welcome to My Website!</h1>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About Me</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
-  <h2>Hi, I'm marybianchi</h2>
+  <section id="home">
+    <h1>Welcome to My Website!</h1>
 
-  <p>Hello! I'm learning how to build websites.</p>
-  <p>This is my very first project.</p>
+    <h2>Hi, I'm marybianchi</h2>
 
-  <h2>About Me</h2>
-  <p>I'm learning web development and creating my own website.</p>
+    <img src="channels4_profile.jpg" alt="A photo of Mary" width="350">
 
-  <h2>My Photo</h2>
-  
+    <p>Hello! I'm learning how to build websites.</p>
+    <p>This is my very first project.</p>
 
-<img src="channels4_profile.jpg" alt="A photo of Mary" width="350">
+    <button onclick="alert('Welcome to my website!')">
+      Click Me!
+    </button>
+  </section>
 
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I'm learning web development and creating my own website.</p>
+  </section>
 
-
-  <br><br>
-
-  <button onclick="alert('Welcome to my website!')">
-    Click Me!
-  </button>
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Thanks for visiting my website!</p>
+  </section>
 
 </body>
 </html>
