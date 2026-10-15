@@ -76,3 +76,11 @@ section {
 .book h3 {
   color: #4338ca;
 }
+
+.book img {
+  width: 150px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin: 10px auto;
+}
