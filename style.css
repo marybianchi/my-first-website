@@ -84,3 +84,30 @@ section {
   border-radius: 6px;
   margin: 10px auto;
 }
+
+
+.book {
+  background-color: white;
+  padding: 25px;
+  margin: 25px auto;
+  max-width: 450px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(67, 56, 202, 0.15);
+}
+
+.book h3 {
+  color: #4338ca;
+  font-size: 22px;
+}
+
+.book img {
+  width: 150px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin: 10px auto;
+}
+
+.book p {
+  line-height: 1.6;
+}
